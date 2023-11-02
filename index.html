@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <!-- Header  -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-atom"></i>Manga</a>
+        <nav class="navbar">
+             <a href="index.html">home</a>
+             <a href="#trending">trending</a>
+             <a href="#new">komik terbaru</a>
+             <a href="#">genre</a>
+             <a href="#">bookmart</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <a href="#" class="fas fa-bell"></a>
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+    </header>
+    <!-- Header -->
+
+    <!--Home Section Start  -->
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+    
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide">
+                    <div class="card " style="background: url(img/jujutsu1.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>Jujutsu Kaisen</h3>
+                            <a href="read/trending.html" class="btn">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="card second" style="background: url(img/kny1.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>Kimetsu no Yaiba</h3>
+                            <a href="read/trending5.html" class="btn">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="card " style="background: url(img/spy1.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>Spy X Familiy</h3>
+                            <a href="read/trending4.html" class="btn">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="card " style="background: url(img/solo-leveling.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>Solo Leveling</h3>
+                            <a href="read/download7.html" class="btn">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    <!-- Home Section End -->
+
+
+     <!--Trending Section Start  -->
+     <section class="trending container" id="trending">
+        <div class="title">
+            <i class='bx bxs-flame'></i>
+            <h2>Trending</h2>
+        </div>
+        <!-- Content -->
+        <div class="trending-content swiper">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="box" data-search="Jujutsu Kaisen">
+                        <img src="img/jujutsu.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Jujutsu Kaisen</h2>
+                            <h3>Action,Fantasy,School</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="read/trending.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SLide 2 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/a-365.jpg" alt="">
+                        <div class="box-text">
+                            <h2>The Beginning After The End</h2>
+                            <h3>Adventure,Reincarnation</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="read/trending2.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SLide 3 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/csm1.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Chainsaw Man</h2>
+                            <h3>Action,Drama,Horror</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="read/trending3.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SLide 4 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/Spy.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Spy X Family</h2>
+                            <h3>Action,Comedy,Romance</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="read/trending4.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- SLide 5 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/kny.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Kimetsu No Yaiba</h2>
+                            <h3>Action,Comedy,Supernatural</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="read/trending5.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SLide 6 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/aot.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Attack On Titan</h2>
+                            <h3>Action,Tragedy,Psychological</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="read/trending6.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SLide 7 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/cover8.jpg" alt="">
+                        <div class="box-text">
+                            <h2>One Punch Man</h2>
+                            <h3>Action,Comedy</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="read/download8.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SLide 8 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/Hunter.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Hunter x Hunter</h2>
+                            <h3>Action,Adventue,Fantasy</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="read/trending7.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Treeding Section End  -->
+
+    <!-- New Section Start-->
+    <section class="new container" id="new">
+        <div class="title">
+            <i class='bx bxs-book-content'></i>
+            <h2>Komik Terbaru</h2>
+        </div>
+        <div class="new-content">
+            <!-- Box 1 -->
+            <div class="box">
+                <img src="img/coverr.jpg" alt="">
+                <div class="box-text">
+                    <h2>One Piece</h2>
+                    <h3>Axtion,Comedy,Shonen</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.5</span>
+                        </div>
+                        <a href="read/download.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <img src="img/cover2.jpg" alt="">
+                <div class="box-text">
+                    <h2>Solo Max Level</h2>
+                    <h3>Action, Fantasy</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.9</span>
+                        </div>
+                        <a href="read/download2.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <img src="img/cover3.jpg" alt="">
+                <div class="box-text">
+                    <h2>Study Group</h2>
+                    <h3>Action,Drama,Martial Arts</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.9</span>
+                        </div>
+                        <a href="read/download3.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <img src="img/cover4.jpg" alt="">
+                <div class="box-text">
+                    <h2>I Obtained a Mythic Item</h2>
+                    <h3>Action,Adventure,Demon</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.9</span>
+                        </div>
+                        <a href="read/download4.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+                <img src="img/cover5.jpg" alt="">
+                <div class="box-text">
+                    <h2>To Not Die</h2>
+                    <h3>Action,Adventure,Drama</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.9</span>
+                        </div>
+                        <a href="read/download5.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 6 -->
+            <div class="box">
+                <img src="img/cover6.jpg" alt="">
+                <div class="box-text">
+                    <h2>Qusetism</h2>
+                    <h3>Action,Drama,Fantasy</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.9</span>
+                        </div>
+                        <a href="read/download6.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 7 -->
+            <div class="box">
+                <img src="img/cover7.jpg" alt="">
+                <div class="box-text">
+                    <h2>Solo Leveling</h2>
+                    <h3>Action,Fantasy,Magic</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.9</span>
+                        </div>
+                        <a href="read/download7.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 8 -->
+            <div class="box">
+                <img src="img/cover8.jpg" alt="">
+                <div class="box-text">
+                    <h2>One Punch Man</h2>
+                    <h3>Action,Adventure,Comedy</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.9</span>
+                        </div>
+                        <a href="read/download8.html" class="box-btn"><i class='bx bxs-book-reader'></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="next-page">
+            <a href="#">Next Page</a>
+        </div>
+    </section>
+
+    <!-- New Section End -->
+
+    <!-- Copyright -->
+    <div class="copyright container">
+        <a href="" class="logo"><i class="fas fa-atom"></i>Manga</a>
+        <p>&#169; Abdul Muqsit Fadil</p>
+    </div>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer data-deferred="1"></script>
+
+    <!-- link to javascript -->
+    <script src="main.js" defer data-deferred="1"></script> 
+   
+</body>
+</html>
